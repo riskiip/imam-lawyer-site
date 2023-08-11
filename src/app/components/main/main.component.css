@@ -1,0 +1,19 @@
+.maps {
+  width: 100%;
+  height: 100%;
+  margin: unset;
+  padding-top: unset;
+}
+
+.self-potrait {
+  background-size: unset !important;
+}
+
+@media screen and (min-width: 575px) {
+  .maps {
+    width: 450px;
+    height: 450px;
+    margin: auto;
+    padding-top: 100px;
+  }
+}
