@@ -2,7 +2,7 @@
   <div class="container">
     <a class="navbar-brand" [routerLink]="'/'">Imam Hanafi, S.H.</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav"
-            aria-expanded="false" aria-label="Toggle navigation">
+      aria-expanded="false" aria-label="Toggle navigation">
       <span class="oi oi-menu"></span> Menu
     </button>
 
@@ -21,11 +21,6 @@
         <li class="nav-item" [ngClass]="isAboutActive ? 'active' : ''" (click)="navigatePage('about')">
           <a [routerLink]="'about'" class="nav-link">
             Galeri
-          </a>
-        </li>
-        <li class="nav-item" [ngClass]="isBlogActive ? 'active' : ''" (click)="navigatePage('blog')">
-          <a [routerLink]="'blog'" class="nav-link">
-            Blog
           </a>
         </li>
         <li class="nav-item" [ngClass]="isContactActive ? 'active' : ''" (click)="navigatePage('contact')">
